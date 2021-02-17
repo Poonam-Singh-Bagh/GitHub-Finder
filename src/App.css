@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.style {
+  margin-top: 7%;
+}
+
+/* .input {
+  width: 30%;
+} */
+
+.outer {
+  margin-top: 3%;
+}
+
+.btn {
+  text-decoration: none;
+  width: 80%;
+  padding-left: 7%;
+  padding-top: 2%;
+}
