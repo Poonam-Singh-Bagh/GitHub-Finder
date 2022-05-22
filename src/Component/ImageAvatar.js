@@ -1,12 +1,13 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Avatar from '@material-ui/core/Avatar';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Avatar from "@material-ui/core/Avatar";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    borderRadius: '100%',
-    '& > *': {
+    display: "flex",
+    borderRadius: "100%",
+    "& > *": {
       margin: theme.spacing(1),
       width: theme.spacing(40),
       height: theme.spacing(40),
@@ -24,4 +25,4 @@ function ImageAvatar(props) {
   );
 }
 
-export default ImageAvatar
+export default ImageAvatar;
