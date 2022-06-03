@@ -25,9 +25,12 @@ function Profile(props) {
       <Grid
         item
         xs={12}
-        sm={4}
+        md={4}
+        // align="center"
+        className="profile"
         style={{
-          paddingLeft: "100px",
+          // alignItems: "center",
+          // paddingLeft: "100px",
           paddingTop: "100px",
           paddingRight: "80px",
         }}
@@ -37,7 +40,7 @@ function Profile(props) {
       <Grid
         item
         xs={12}
-        sm={8}
+        md={8}
         style={{
           paddingTop: "100px",
           paddingBottom: "50px",
